@@ -152,7 +152,7 @@ before("Development of a Low-Cost Embedded Prototype for Autonomous "
        "Collection of Food-Waste Bins in Residential Complexes",
        "영어 논문 제목", bold=True)
 before("", "Normal")
-before("Gyeongseok Lee, Sangyun Lee, Minje Jeon and Hyeongjin Park", "영어 저자 이름")
+before("Gyeongseok Lee, Sangyun Lee, Minje Jeon and Hyoungjin Park", "영어 저자 이름")
 before("School of Mechanical Engineering, Hanyang University.", "저자 소속")
 before("", "Normal")
 before("Key Words: Autonomous Mobile Robot(자율주행 로봇), Food Waste Collection"
