@@ -145,14 +145,14 @@ def figure_ph(caption, img=None, width_in=3.1):
 before("공동주택 음식물 쓰레기통 자율 수거를 위한 저비용 임베디드 시제품 개발",
        "한글 논문제목", bold=True)
 before("", "Normal")
-before("이경석 · 이상윤 · 전민제", "저자 이름")
+before("이경석 · 이상윤 · 전민제 · 박형진", "저자 이름")
 before("한양대학교 기계공학부", "저자 소속")
 before("", "Normal")
 before("Development of a Low-Cost Embedded Prototype for Autonomous "
        "Collection of Food-Waste Bins in Residential Complexes",
        "영어 논문 제목", bold=True)
 before("", "Normal")
-before("Gyeongseok Lee, Sangyun Lee and Minje Jeon", "영어 저자 이름")
+before("Gyeongseok Lee, Sangyun Lee, Minje Jeon and Hyeongjin Park", "영어 저자 이름")
 before("School of Mechanical Engineering, Hanyang University.", "저자 소속")
 before("", "Normal")
 before("Key Words: Autonomous Mobile Robot(자율주행 로봇), Food Waste Collection"

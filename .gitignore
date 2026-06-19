@@ -34,6 +34,8 @@ frontend/.env.local
 
 # files
 *.pdf
+# 논문 PDF 등 docs/ 문서는 추적
+!docs/*.pdf
 *.pptx
 *.png
 *.jpeg
