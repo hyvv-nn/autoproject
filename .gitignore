@@ -47,3 +47,14 @@ frontend/.env.local
 *.mov
 *.zip
 *.tar.gz
+
+# 포트폴리오 미디어는 추적 (docs/ 사진·gif, demo/ 데모영상)
+!docs/*.png
+!docs/*.jpg
+!docs/*.jpeg
+!docs/*.gif
+!demo/*.mp4
+# 논문 원본(원저자 표기) — repo 비포함
+*.docx
+# Claude Code 작업지침 — repo 비포함
+CLAUDE.md

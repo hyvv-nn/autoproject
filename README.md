@@ -3,6 +3,21 @@
 한국 아파트 단지에서 3L 음식물쓰레기통을 자율 수거하는 로봇의 **통합 테스트 환경**입니다.
 웹 브라우저 2D 시뮬레이션과 Webots 3D 시뮬레이션이 **실시간 동기화**되어 작동합니다.
 
+![수거 로봇 파지 데모](docs/p2_grasp.gif)
+
+## 데모 & 하드웨어
+
+**데모 영상** ([`demo/`](demo/))
+- [로봇 파지 — QR 정렬 → 랙피니언·롤러 제어](demo/robot_grasp.mp4)
+- [중앙집하장 하역 — 롤러 역방향](demo/robot_drop.mp4)
+- [웹 대시보드 — 로봇·빈·경로 실시간 표시](demo/web_dashboard.mp4)
+
+**실물 하드웨어**
+
+| 전체 구성 | 전장부 (top-down) |
+|---|---|
+| ![hardware overview](docs/hardware_overview.png) | ![electronics](docs/hardware_electronics.jpg) |
+
 ---
 
 ## 기술 스택
@@ -250,12 +265,10 @@ FastAPI 백엔드 (WebSocket 브로드캐스트)
 
 | 이름 | 역할 |
 |------|------|
-| 이경석 | 프로젝트 |
-| 이상윤 | 프로젝트 |
 | 전민제 | HW·EE — 로봇 HW 설계 · 전장부 조립 · BOM 관리 |
 | 박형진 | SIM·SW — 디지털 트윈 환경 생성 · AI 알고리즘 |
 
-> 모든 과정은 팀원 전원의 협업으로 진행되었습니다.
+> 한양대학교 기계종합설계 · OH! GYM! 지원 팀(전민제 · 박형진).
 
 ---
 
