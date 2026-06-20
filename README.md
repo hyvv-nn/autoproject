@@ -14,9 +14,13 @@
 
 **실물 하드웨어**
 
-| 전체 구성 | 전장부 (top-down) |
-|---|---|
-| ![hardware overview](docs/hardware_overview.png) | ![electronics](docs/hardware_electronics.jpg) |
+전체 구성:
+
+![hardware overview](docs/hardware_overview.png)
+
+전장부 (top-down):
+
+![electronics](docs/hardware_electronics.jpg)
 
 ---
 
@@ -250,14 +254,6 @@ FastAPI 백엔드 (WebSocket 브로드캐스트)
    └─ ROS 2 이식 + 실제 아파트 테스트
 ```
 
----
-
-## 버전 이력
-
-| 버전 | 날짜 | 내용 |
-|------|------|------|
-| v0.1.0 | 2026-03-13 | 초기 구축 — 프레임워크 + 6개 페이지 + API + 시뮬레이션 + 비전 |
-| v0.2.0 | 2026-04-16 | 시제품 테스트 — Webots 연동, BOM 확정, 시제품 맵, 전력 설계 |
 
 ---
 
