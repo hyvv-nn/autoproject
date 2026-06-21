@@ -1,8 +1,7 @@
 # Python
 backend/.venv/
 backend/data/*.db
-backend/__pycache__/
-backend/**/__pycache__/
+**/__pycache__/
 *.pyc
 
 # Node
@@ -10,34 +9,32 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 
-# YOLO models
-*.pt
-*.engine
-
 # Environment
 .env
 .env.local
 frontend/.env.local
 
-# IDE
+# IDE / OS
 .vscode/
 .idea/
 *.swp
 .DS_Store
 
-# CAD files
+# Models & CAD
+*.pt
+*.engine
 *.stl
 *.step
 *.iges
 *.gcode
 *.3mf
 
-# files
+# Binaries & media (keep only curated portfolio media)
 *.pdf
 *.pptx
 *.png
-*.jpeg
 *.jpg
+*.jpeg
 *.bmp
 *.gif
 *.mp4
@@ -45,16 +42,13 @@ frontend/.env.local
 *.mov
 *.zip
 *.tar.gz
-
-# 포트폴리오 미디어는 추적 (docs/ 사진·gif, demo/ 데모영상)
 !docs/*.png
 !docs/*.jpg
 !docs/*.jpeg
 !docs/*.gif
 !demo/*.mp4
-# 논문 원본(원저자 표기) — repo 비포함
+
+# Local working files (not published)
 *.docx
-# Claude Code 작업지침 — repo 비포함
 CLAUDE.md
-# 종설 논문 PDF·발표자료 안내 — repo 비포함(원저자 표기/불필요)
 docs/발표자료_안내.md
